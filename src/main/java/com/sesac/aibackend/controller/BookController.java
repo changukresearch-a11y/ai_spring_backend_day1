@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
-@RequestMapping("/legacy/book")
+@RequestMapping("book")
 public class BookController {
 
     private final Map<Long, Book> storage = new ConcurrentHashMap<>();
